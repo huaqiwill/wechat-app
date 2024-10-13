@@ -1,0 +1,28 @@
+{
+  "name": "wechat-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "push": "node script/deploy.js"
+  },
+  "author": "Huaqiwill",
+  "license": "ISC",
+  "description": "公众号盘古学编程的服务端接口",
+  "keywords": [
+    "盘古学编程",
+    "微信公众号"
+  ],
+  "dependencies": {
+    "axios": "^1.7.7",
+    "co-wechat": "^2.4.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "koa": "^2.15.3",
+    "raw-body": "^3.0.0",
+    "sha1": "^1.1.1",
+    "ssh2": "^1.16.0",
+    "ssh2-sftp-client": "^11.0.0",
+    "xml2js": "^0.6.2"
+  }
+}
